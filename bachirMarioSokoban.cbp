@@ -14,6 +14,9 @@
 				<Compiler>
 					<Add option="-g" />
 				</Compiler>
+				<Linker>
+					<Add library="C:\Program Files (x86)\CodeBlocks\SDL-1.2.15\lib\SDL_image.lib" />
+				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/bachirMarioSokoban" prefix_auto="1" extension_auto="1" />
@@ -42,8 +45,33 @@
 			<Add library="dxguid" />
 			<Add directory="C:/Program Files (x86)/CodeBlocks/SDL-1.2.15/lib" />
 		</Linker>
+		<Unit filename="caisse.jpg" />
+		<Unit filename="caisse_ok.jpg" />
 		<Unit filename="cb.bmp" />
-		<Unit filename="main.cpp" />
+		<Unit filename="constantes.h" />
+		<Unit filename="editeur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="editeur.h" />
+		<Unit filename="fichiers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fichiers.h" />
+		<Unit filename="jeu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="jeu.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mario_bas.gif" />
+		<Unit filename="mario_droite.gif" />
+		<Unit filename="mario_gauche.gif" />
+		<Unit filename="mario_haut.gif" />
+		<Unit filename="menu_accueil.jpg" />
+		<Unit filename="mur.jpg" />
+		<Unit filename="niveaux.lvl" />
+		<Unit filename="objectif.png" />
 		<Extensions>
 			<code_completion />
 			<envvars />
